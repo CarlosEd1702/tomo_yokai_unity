@@ -1,0 +1,102 @@
+### =========================
+### Miscellaneous
+### =========================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+### =========================
+### IDEs
+### =========================
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+### =========================
+### Flutter / Dart
+### =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+### =========================
+### Android / Gradle
+### =========================
+android/.gradle/
+android/local.properties
+**/*.keystore
+**/*.jks
+
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+### =========================
+### Unity
+### =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+unity/UserSettings/
+
+# Unity builds
+[Bb]uild/
+[Bb]uilds/
+
+# IL2CPP cache
+unity/Il2CppBuildCache/
+
+### =========================
+### iOS
+### =========================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/.last_build_id
+
+### =========================
+### Obfuscation / Symbols
+### =========================
+app.*.symbols
+app.*.map.json
+
+# ===== Unity Android generated binaries =====
+android/unityLibrary/
+android/build/
+android/unityLibrary/src/main/jniLibs/
+android/unityLibrary/symbols/
+android/unityLibrary/build/
+android/unityLibrary/.cxx/
+android/unityLibrary/intermediates/
+android/unityLibrary/outputs/
+
+# Unity generated folders
+**/Library/
+**/Temp/
+**/Obj/
+**/Logs/
+
+# OS
+.DS_Store
+Thumbs.db
